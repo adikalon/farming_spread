@@ -2,7 +2,13 @@ for _, value in pairs(farming.registered_plants) do
 	minetest.register_decoration({
 		name = value.crop .. "_" .. value.steps,
 		deco_type = "simple",
-		place_on = {"group:soil"},
+		place_on = {
+			"group:soil",
+			"livingdesert:coldsteppe_ground",
+			"livingdesert:coldsteppe_ground2",
+			"livingdesert:coldsteppe_ground3",
+			"livingdesert:coldsteppe_ground4",
+		},
 		sidelen = 16,
 		noise_params = {
 			offset = 0,
