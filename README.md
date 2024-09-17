@@ -6,8 +6,12 @@ This is an addition to the [farming redo](https://codeberg.org/tenplus1/farming)
 
 ## Description
 
-Now the crops appears on all group:soil blocks, in other words in all biomes, the frequency of appearance has been deliberately reduced.
+Increases the number of biomes in which crops can be found. The frequency of appearance has been intentionally reduced.
 
-## Problems
+## Supported
 
-The crops also appears on default:dirt_with_snow blocks.
+* Extra Biomes
+* Variety
+* Natural Biomes
+* Living Jungle
+* Living Desert

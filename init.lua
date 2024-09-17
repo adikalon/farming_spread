@@ -53,19 +53,6 @@ local dry_dirt_nodes = {
 	"default:dirt_with_dry_grass",
 }
 
--- for name, def in pairs(minetest.registered_nodes) do
--- 	if
--- 		def.groups.soil
--- 		and name ~= "livingdesert:coldsteppe_ground"
--- 		and name ~= "livingdesert:coldsteppe_ground2"
--- 		and name ~= "livingdesert:coldsteppe_ground3"
--- 		and name ~= "livingdesert:coldsteppe_ground4"
--- 		and name ~= "default:dirt_with_snow"
--- 	then
--- 		table.insert(place_nodes, name)
--- 	end
--- end
-
 for _, value in pairs(farming.registered_plants) do
 	if
 		value.crop ~= "farming:beanpole"
